@@ -1,0 +1,3 @@
+export OVPN_CLIENT="~/path/to/client.ovpn"
+export OVPN_PASS="~/path/to/ovpn-pass.txt"
+export SSH_SERVER="~/path/to/key.something server@1.2.3.4"

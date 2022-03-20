@@ -1,8 +1,8 @@
 # Shortcuts
 alias c="clear"
 alias db.restart="sudo service mysql restart"
-alias kf.vpn="sudo openvpn --config ~/Documentos/Kickfurther/client.ovpn --auth-user-pass ~/Documentos/Kickfurther/ovpn-pass.txt" # TODO use paths
-alias kf.staging="ssh -i ~/Documentos/Kickfurther/kf.staging ubuntu@172.31.62.89"
+alias kf.vpn="sudo openvpn --config ${OVPN_CLIENT} --auth-user-pass ${OVPN_PASS}" # TODO use paths
+alias kf.staging="ssh -i ${SSH_SERVER}"
 alias reload="source $HOME/.zshrc"
 
 # Directories
