@@ -1,7 +1,7 @@
 # Shortcuts
 alias c="clear"
 alias db.restart="sudo service mysql restart"
-alias kf.vpn="sudo openvpn --config ${OVPN_CLIENT} --auth-user-pass ${OVPN_PASS}" # TODO use paths
+alias kf.vpn="sudo openvpn --config ${OVPN_CLIENT} --auth-user-pass ${OVPN_PASS}"
 alias kf.staging="ssh -i ${SSH_SERVER}"
 alias reload="source $HOME/.zshrc"
 
@@ -18,7 +18,7 @@ alias sail="vendor/bin/sail"
 # PHP unit
 alias test="vendor/bin/phpunit"
 alias tes="vendor/bin/phpunit -c phpunit.local.xml --exclude slow"
-alias tos="vendor/bin/phpunit --group slow"
+alias tos="vendor/bin/phpunit -c phpunit.local.xml --group slow"
 
 # Git
 alias amend="git add . && git commit --amend --no-edit"
