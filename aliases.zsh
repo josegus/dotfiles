@@ -12,7 +12,7 @@ alias sites="cd $HOME/Sites"
 alias art="php artisan"
 alias cda="composer dumpautoload -o"
 alias tink="php artisan tinker"
-alias mft="php artisan migrate:fresh --env=testing"
+alias mft="php artisan migrate:fresh --env=testing --seed"
 alias sail="vendor/bin/sail"
 
 # PHP unit
