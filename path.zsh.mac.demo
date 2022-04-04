@@ -7,6 +7,7 @@ export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 # Load composer binaries (macos default)
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-# Load nvm configuration (TODO: Check if this is linux only)
-export NVM_DIR=~/.nvm
- [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+# Load nvm configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
