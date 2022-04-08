@@ -19,6 +19,7 @@ alias sail="vendor/bin/sail"
 alias test="vendor/bin/phpunit"
 alias tes="vendor/bin/phpunit -c phpunit.local.xml --exclude slow"
 alias tos="vendor/bin/phpunit -c phpunit.local.xml --group slow"
+alias tesf="vendor/bin/phpunit -c phpunit.local.xml --exclude slow --stop-on-failure"
 
 # Git
 alias amend="git add . && git commit --amend --no-edit"
