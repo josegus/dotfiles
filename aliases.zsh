@@ -4,6 +4,7 @@ alias db.restart="sudo service mysql restart"
 alias kf.vpn='sudo openvpn --config "$OVPN_CLIENT" --auth-user-pass "$OVPN_PASS"'
 alias kf.staging='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS"'
 alias reload="source $HOME/.zshrc"
+alias fp="firefox --private-window"
 
 # Directories
 alias sites="cd $HOME/Sites"
