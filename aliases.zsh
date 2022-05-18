@@ -6,6 +6,7 @@ alias kf.staging='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS"'
 alias kf.whitelabel='ssh -i "$SSH_KEY_PATH" "$SSH_WHITELABEL_ADDRESS"'
 alias reload="source $HOME/.zshrc"
 alias fp="firefox --private-window"
+alias share='valet share --subdomain="gustavo" --authtoken="$NGROK_AUTH_TOKEN"'
 
 # Directories
 alias sites="cd $HOME/Sites"
