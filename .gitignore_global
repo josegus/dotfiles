@@ -16,3 +16,5 @@ Thumbs.db
 ########
 phpunit.local.xml
 database/schema
+build
+coverage

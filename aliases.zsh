@@ -3,13 +3,17 @@ alias c="clear"
 alias db.restart="sudo service mysql restart"
 alias kf.vpn='sudo openvpn --config "$OVPN_CLIENT" --auth-user-pass "$OVPN_PASS"'
 alias kf.staging='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS"'
-alias kf.whitelabel='ssh -i "$SSH_KEY_PATH" "$SSH_WHITELABEL_ADDRESS"'
+alias kf.whitelabel.stg='ssh -i "$SSH_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_STG"'
+alias kf.whitelabel.prod='ssh -i "$SSH_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_PROD"'
 alias reload="source $HOME/.zshrc"
 alias fp="firefox --private-window"
 alias share='valet share --subdomain="gustavo" --authtoken="$NGROK_AUTH_TOKEN"'
+alias xdebug.on="sudo phpenmod xdebug"
+alias xdebug.off="sudo phpdismod xdebug"
 
 # Directories
 alias sites="cd $HOME/Sites"
+alias dot="cd $HOME/.dotfiles"
 
 # Laravel & PHP
 alias art="php artisan"
@@ -19,7 +23,8 @@ alias mft="php artisan migrate:fresh --env=testing --seed"
 alias sail="vendor/bin/sail"
 
 # PHP unit
-alias test="vendor/bin/phpunit"
+alias t="vendor/bin/phpunit -c phpunit.local.xml"
+alias tc="vendor/bin/phpunit -c phpunit.local.xml --coverage-html coverage"
 alias tes="vendor/bin/phpunit -c phpunit.local.xml --exclude slow"
 alias tos="vendor/bin/phpunit -c phpunit.local.xml --group slow"
 alias tesf="vendor/bin/phpunit -c phpunit.local.xml --exclude slow --stop-on-failure"
