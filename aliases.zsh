@@ -10,6 +10,8 @@ alias fp="firefox --private-window"
 alias share='valet share --subdomain="gustavo" --authtoken="$NGROK_AUTH_TOKEN"'
 alias xdebug.on="sudo phpenmod xdebug"
 alias xdebug.off="sudo phpdismod xdebug"
+alias redis="docker run -p 6379:6379 -d redis"
+alias aliases="cat $HOME/.dotfiles/aliases.zsh"
 
 # Directories
 alias sites="cd $HOME/Sites"
