@@ -10,6 +10,7 @@ alias fp="firefox --private-window"
 alias share='valet share --subdomain="gustavo" --authtoken="$NGROK_AUTH_TOKEN"'
 alias xdebug.on="sudo phpenmod xdebug"
 alias xdebug.off="sudo phpdismod xdebug"
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 
 # Directories
 alias sites="cd $HOME/Sites"
