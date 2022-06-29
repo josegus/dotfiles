@@ -1,6 +1,5 @@
 # Shortcuts
 alias c="clear"
-alias db.restart="sudo service mysql restart"
 alias kf.vpn='sudo openvpn --config "$OVPN_CLIENT" --auth-user-pass "$OVPN_PASS"'
 alias kf.staging='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS"'
 alias kf.whitelabel.stg='ssh -i "$SSH_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_STG"'
@@ -47,3 +46,13 @@ alias nah="git reset --hard && git clean -df"
 alias pull="git pull"
 alias push="git push"
 alias wip="commit wip"
+
+# linux
+if [[ $OSTYPE == linux ]]; then
+    alias db.restart="sudo service mysql restart"
+fi
+
+# macOS
+if [[ $OSTYPE == darwin* ]]; then
+    alias db.restart="brew services restart mariadb"
+fi
