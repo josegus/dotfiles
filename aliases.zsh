@@ -48,7 +48,7 @@ alias push="git push"
 alias wip="commit wip"
 
 # linux
-if [[ $OSTYPE == linux ]]; then
+if [[ $OSTYPE == linux* ]]; then
     alias db.restart="sudo service mysql restart"
 fi
 
