@@ -1,0 +1,20 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode
+.vagrant/
+.nova/
+
+# Misc #
+########
+phpunit.local.xml
+database/schema
+build
+coverage

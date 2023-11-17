@@ -1,0 +1,16 @@
+#export OVPN_CLIENT="~/path/to/client.ovpn"
+#export OVPN_PASS="~/path/to/ovpn-pass.txt"
+#export SSH_KEY_PATH="~/path/to/key.something"
+#export SSH_SERVER_ADDRESS="server@1.2.3.4"
+export SSH_WHITELABEL_ADDRESS_STAGING="server@1.2.3.4"
+export SSH_WHITELABEL_ADDRESS_PRODUCTION="server@1.2.3.4"
+export NGROK_AUTH_TOKEN="https://dashboard.ngrok.com/get-started/your-authtoken"
+
+# New paths
+export SSH_STAGING="kickfurther@1.2.3.4"
+export SSH_PRODUCTION="kickfurther@1.2.3.4"
+
+# Linux only
+export OVPN_STAGING="$HOME/path-to/staging.ovpn"
+export OVPN_PRODUCTION="$HOME/path-to/production-vpn-client.ovpn"
+export OVPN_PRODUCTION_PASS="$HOME/path-to/production-vpn-pass.txt"

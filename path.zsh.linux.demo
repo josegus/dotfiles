@@ -1,0 +1,9 @@
+# Load system binaries
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:$HOME/.local/bin"
+
+# Load composer binaries
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
+# Load nvm configuration (TODO: Check if this is linux only)
+export NVM_DIR=~/.nvm
+ [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"

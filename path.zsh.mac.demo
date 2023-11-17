@@ -1,0 +1,16 @@
+# Global bin directories
+export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+# Load homebrew bin
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
+# Load composer binaries (macos default)
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+# Allow start VSCode from the terminal
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Load nvm configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
