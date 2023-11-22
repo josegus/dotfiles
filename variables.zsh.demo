@@ -2,11 +2,14 @@
 #export OVPN_PASS="~/path/to/ovpn-pass.txt"
 #export SSH_KEY_PATH="~/path/to/key.something"
 #export SSH_SERVER_ADDRESS="server@1.2.3.4"
+
+
+export SSH_WHITELABEL_KEY_PATH="$HOME/Kickfurther/vpn/whitelabel-key-file-here"
 export SSH_WHITELABEL_ADDRESS_STAGING="server@1.2.3.4"
 export SSH_WHITELABEL_ADDRESS_PRODUCTION="server@1.2.3.4"
-export NGROK_AUTH_TOKEN="https://dashboard.ngrok.com/get-started/your-authtoken"
 
-# New paths
+# Laravel
+export NGROK_AUTH_TOKEN="https://dashboard.ngrok.com/get-started/your-authtoken"
 export SSH_STAGING="kickfurther@1.2.3.4"
 export SSH_PRODUCTION="kickfurther@1.2.3.4"
 
