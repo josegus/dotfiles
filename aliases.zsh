@@ -32,6 +32,7 @@ alias cda="composer dumpautoload -o"
 alias tink="php artisan tinker"
 alias mft="php artisan migrate:fresh --env=testing --seed"
 alias sail="vendor/bin/sail"
+alias ins="composer install && npm install && art view:clear && npm run build"
 
 # PHP unit
 alias t="vendor/bin/phpunit -c phpunit.xml"
