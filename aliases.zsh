@@ -15,6 +15,7 @@ alias redis="docker run -p 6379:6379 -d redis"
 alias aliases="cat $HOME/.dotfiles/aliases.zsh"
 alias vanta="/var/vanta/vanta-cli"
 alias net="sudo service dnsmasq restart"
+alias ins="composer install && art view:clear && npm install && npm run build"
 
 # KF
 alias kf.vpn.stag="sudo openvpn --config $OVPN_STAGING"
