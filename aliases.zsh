@@ -36,7 +36,7 @@ alias sail="vendor/bin/sail"
 alias ins="composer install && npm install && art view:clear && npm run build"
 
 # PHP unit
-alias tp="art test --parallel"
+alias tp="art test --parallel --recreate-databases --drop-databases --processes=4"
 alias tpd="art test --parallel --recreate-databases"
 alias t="vendor/bin/phpunit"
 alias tc="t --coverage-html coverage"
