@@ -34,6 +34,10 @@ alias tink="php artisan tinker"
 alias mft="php artisan migrate:fresh --env=testing --seed"
 alias sail="vendor/bin/sail"
 alias ins="composer install && npm install && art view:clear && npm run build"
+alias cr="composer run"
+alias tb="composer exec testbench"
+alias cv="composer exec canva"
+alias cs="composer run serve"
 
 # PHP unit
 alias tp="art test --parallel --processes=4"
