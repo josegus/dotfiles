@@ -18,7 +18,7 @@ alias net="sudo service dnsmasq restart"
 alias ins="composer install && art view:clear && npm install && npm run build"
 
 # KF
-alias kf.vpn.stag="sudo openvpn --config $OVPN_STAGING"
+alias kf.vpn.stag='sudo openvpn --config "$OVPN_STAGING"'
 alias kf.vpn.prod='sudo openvpn --config "$OVPN_PRODUCTION" --auth-user-pass "$OVPN_PRODUCTION_PASS"'
 alias kf.ssh.stag='ssh "$SSH_STAGING"'
 alias kf.ssh.prod='ssh "$SSH_PRODUCTION"'
