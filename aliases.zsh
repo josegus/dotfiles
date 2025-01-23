@@ -3,8 +3,8 @@ alias c="clear"
 #alias kf.vpn='sudo openvpn --config "$OVPN_CLIENT" --auth-user-pass "$OVPN_PASS"'
 #alias kf.staging='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS"'
 #alias kf.prod='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS_PROD"'
-alias kf.whitelabel.stag='ssh -i "$SSH_WHITELABEL_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_STG"'
-alias kf.whitelabel.prod='ssh -i "$SSH_WHITELABEL_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_PROD"'
+alias kf.whitelabel.stag='ssh -i "$SSH_WHITELABEL_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_STAGING"'
+alias kf.whitelabel.prod='ssh -i "$SSH_WHITELABEL_KEY_PATH" "$SSH_WHITELABEL_ADDRESS_PRODUCTION"'
 alias reload="source $HOME/.zshrc"
 alias fp="firefox --private-window"
 alias share='valet share --subdomain="gustavo" --authtoken="$NGROK_AUTH_TOKEN"'
