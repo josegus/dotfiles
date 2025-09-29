@@ -1,5 +1,6 @@
 # Shortcuts
 alias c="clear"
+alias flip='function flipf(){ ffmpeg -i "$1" -vf "hflip" "$2"; }; flipf'
 #alias kf.vpn='sudo openvpn --config "$OVPN_CLIENT" --auth-user-pass "$OVPN_PASS"'
 #alias kf.staging='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS"'
 #alias kf.prod='ssh -i "$SSH_KEY_PATH" "$SSH_SERVER_ADDRESS_PROD"'
@@ -68,7 +69,7 @@ alias wip="commit wip"
 
 # linux
 if [[ $OSTYPE == linux* ]]; then
-    alias db.restart="sudo service mysql restart"
+    #alias db.restart
 fi
 
 # macOS
