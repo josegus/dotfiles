@@ -18,3 +18,4 @@ phpunit.local.xml
 database/schema
 build
 coverage
+*.log
