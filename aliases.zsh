@@ -67,6 +67,12 @@ alias pull="git pull"
 alias push="git push"
 alias wip="commit wip"
 
+# Claude
+alias claude-work='CLAUDE_CONFIG_DIR=~/.claude-work claude'
+alias claude-personal='claude'
+alias claude-desktop:work='nohup claude-desktop --user-data-dir="$HOME/.config/Claude-Work" > /dev/null 2>&1 &'
+alias code:work='CLAUDE_CONFIG_DIR="$HOME/.claude-work" nohup code . > /dev/null 2>&1 &'
+
 # linux
 if [[ $OSTYPE == linux* ]]; then
     #alias db.restart

@@ -19,3 +19,5 @@ database/schema
 build
 coverage
 *.log
+
+**/.claude/settings.local.json
