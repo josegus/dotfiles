@@ -115,3 +115,14 @@ export PATH="/Users/gustavovasquez/Library/Application Support/Herd/bin/":$PATH
 
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/gustavovasquez/Library/Application Support/Herd/config/php/83/"
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/gustavovasquez/.local/bin:$PATH"
+export PATH="/Users/gustavovasquez/.local/bin:$PATH"
+
+# Added by Devin
+export PATH="/Users/gustavovasquez/.codeium/windsurf/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/gustavovasquez/.antigravity-ide/antigravity-ide/bin:$PATH"
