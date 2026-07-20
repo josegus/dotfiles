@@ -27,6 +27,7 @@ alias kf.ssh.prod='ssh "$SSH_PRODUCTION"'
 # Directories
 alias sites="cd $HOME/Sites"
 alias dot="cd $HOME/.dotfiles"
+alias serve="php -S localhost:8000"
 
 # Laravel & PHP
 alias art="php artisan"
